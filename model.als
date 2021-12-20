@@ -8,7 +8,7 @@ sig State { light: one Color }
 
 fun colorSequence: set Color -> Color {
 
-	(Red->Green)+(Green->Ambar)+(Ambar->Red)+(Color<:iden)
+	(Green->Ambar)+(Red->Green)+(Ambar->Red)+(Color<:iden)
 }
 
 pred changeLight[e1, e2: State]{ e1.light -> e2.light in colorSequence}
@@ -25,5 +25,5 @@ pred search {ord/last.light = Ambar}
 
 pred searchAnyState { some e:State | e.light = Ambar}
 
-run search for 9 State, 1 TrafficLight
-run searchAnyState for 9 State, 1 TrafficLight
+run search for 100 State, 1 TrafficLight
+run searchAnyState for 100 State, 1 TrafficLight
