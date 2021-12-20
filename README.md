@@ -4,8 +4,12 @@ Alloy is an open source language and analyzer for software modeling. It has been
 
 All the information about project Alloy can be found at [https://alloytools.org/](https://alloytools.org/)
 
-## The proyected instances of the machines can be seen as follows
+## The projected model of the machine can be seen as follows
+
+### Projected over Traffic Light
 
 ![proyection1](https://github.com/dtellz/state-machine-model/blob/master/instance_proy_over_object.png?raw=true)
+
+### Projected over possible states
 
 ![proyection1](https://github.com/dtellz/state-machine-model/blob/master/instance_proy_over_state.png?raw=true)
